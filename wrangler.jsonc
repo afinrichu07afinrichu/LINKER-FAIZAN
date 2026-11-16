@@ -1,0 +1,10 @@
+{
+  // Worker പേര് Cloudflare-ലെ Worker പേരുമായി ഒന്നായിരിക്കണം
+  "name": "faizan-fathima",
+  "main": "_worker.js",
+  "compatibility_date": "2025-06-01",
+  "kv_namespaces": [
+    // KV സ്വയം ഉണ്ടാകുന്നില്ലെങ്കിൽ { "binding": "LINKS", "id": "നിങ്ങളുടെ-KV-ID" } എന്ന് മാറ്റുക
+    { "binding": "LINKS" }
+  ]
+}
